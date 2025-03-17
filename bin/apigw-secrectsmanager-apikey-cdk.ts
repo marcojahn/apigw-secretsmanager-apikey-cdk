@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import * as cdk from "aws-cdk-lib";
-import { ApigwSecretsmanagerApikeyStack as ApigwSecretsmanagerApikeyStack } from "../lib/apigw-secretsmanager-apikey-stack";
+import { ApigwSecretsmanagerApikeyStack } from "../lib/apigw-secretsmanager-apikey-stack";
 
 const app = new cdk.App();
 // amazonq-ignore-next-line
